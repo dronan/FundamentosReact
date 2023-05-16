@@ -11,11 +11,17 @@ import Repeticao from "./components/repeticao/ListaAlunos";
 import ListaProdutos from "./components/repeticao/TabelaProdutos";
 import ParOuImpar from "./components/condicional/ParOuImpar";
 import UsuarioInfo from "./components/condicional/UsuarioInfo";
+import DiretaPai from "./components/comunicacao/DiretaPai";
 
 export default () => (
   <div id="App">
     <h1>Fundamentos React</h1>
     <div className="Cards">
+
+      <Card titulo="#10 Comunicação direta" color="#e8d21d">
+        <DiretaPai></DiretaPai>
+      </Card>
+      
 
       <Card titulo="#9 Condicional" color="#f3ca20">
         <ParOuImpar numero={17}></ParOuImpar>
