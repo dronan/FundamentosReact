@@ -20,7 +20,6 @@ export default () => (
       <Card titulo="#9 Condicional" color="#f3ca20">
         <ParOuImpar numero={17}></ParOuImpar>
         <UsuarioInfo usuario={{ nome: 'Diego' }} />
-        <UsuarioInfo usuario={{ email: 'diego@gmail.com' }} />
       </Card>
       
 
