@@ -23,7 +23,7 @@ export default () => (
 
 
       <Card titulo="#13 Contador" color="#333333">
-        <Contador></Contador>
+        <Contador numeroInicial={20} passoInicial={10}></Contador>
       </Card>
 
 
